@@ -22,7 +22,7 @@
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:defaultNavHost="true"/>
+            app:defaultNavHost="true" />
 
     </FrameLayout>
 
@@ -30,6 +30,7 @@
         android:id="@+id/ivCurSongImage"
         android:layout_width="56dp"
         android:layout_height="56dp"
+        android:contentDescription="@string/currently_playing_song_image"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -48,6 +49,7 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:background="@color/darkBackground"
+        android:contentDescription="@string/play"
         android:src="@drawable/ic_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
