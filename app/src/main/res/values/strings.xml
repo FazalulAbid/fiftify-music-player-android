@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Fiftify Music Player</string>
-    <string name="currently_playing_song_image">Currently playing song image</string>
+    <string name="song_image">Song image</string>
     <string name="play">Play</string>
 </resources>
